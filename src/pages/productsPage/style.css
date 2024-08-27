@@ -1,0 +1,10 @@
+.cart_desc > li {
+    text-decoration: none;
+    padding: 0;
+}
+.cart_desc > li::before {
+    content: '- '; /* Add the hyphen before each list item */
+    font-weight: bold; /* Optional: make the hyphen bold */
+    margin-right: 8px; /* Optional: add space between hyphen and text */
+    margin-left: 5px;
+}

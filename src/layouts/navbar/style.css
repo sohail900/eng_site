@@ -1,0 +1,18 @@
+.navItem {
+    @apply fixed top-0 z-50  w-full h-full bg-[rgba(0,0,0,0.3)] xl:relative xl:bg-transparent xl:w-auto xl:flex xl:items-center xl:gap-10 transition-all ease-in-out;
+}
+.navItem ul {
+    @apply flex flex-col h-full bg-white w-max px-10 py-10  gap-5 mr-8 font-medium xl:flex-row xl:h-auto xl:bg-transparent xl:px-0 xl:py-0;
+}
+.navItem ul li {
+    @apply mb-5 text-lg after:content-[''] after:w-full after:h-[0.1rem] after:mt-2 after:block after:bg-[rgba(0,0,0,0.3)] xl:after:content-none xl:text-[1rem] xl:mt-5 transition-all ease-in-out;
+}
+.navItem ul li:first-child {
+    @apply after:content-none;
+}
+.navItem ul li:hover {
+    @apply text-primary_color;
+}
+.navItem ul li .active {
+    @apply text-primary_color;
+}

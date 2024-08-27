@@ -1,0 +1,70 @@
+{
+    "teamData": [
+        {
+            "id": 1,
+            "person": "Rachna Sheth",
+            "jobTitles": "Industrial Manager",
+            "desc": "The Industrial Revolution, which took place from the past.",
+            "fb_profile": "https://facebook.com",
+            "lin_profile": "https://linkedin.com",
+            "insta_profile": "https://instagram.com",
+            "yt_profile": "https://youtube.com",
+            "profile_Img": "/assets/team_img/team1.jpg"
+        },
+        {
+            "id": 2,
+            "person": "Amy Dasilva",
+            "jobTitles": "Industrial Manager",
+            "desc": "The Industrial Revolution, which took place from the past.",
+            "fb_profile": "https://facebook.com",
+            "lin_profile": "https://linkedin.com",
+            "insta_profile": "https://instagram.com",
+            "yt_profile": "https://youtube.com",
+            "profile_Img": "/assets/team_img/team2.jpg"
+        },
+        {
+            "id": 3,
+            "person": "John Wick",
+            "jobTitles": "Manager",
+            "desc": "The Industrial Revolution, which took place from the past.",
+            "fb_profile": "https://facebook.com",
+            "lin_profile": "https://linkedin.com",
+            "insta_profile": "https://instagram.com",
+            "yt_profile": "https://youtube.com",
+            "profile_Img": "/assets/team_img/team3.jpg"
+        },
+        {
+            "id": 4,
+            "person": "Jack Daniel",
+            "jobTitles": "Engineer",
+            "desc": "The Industrial Revolution, which took place from the past.",
+            "fb_profile": "https://facebook.com",
+            "lin_profile": "https://linkedin.com",
+            "insta_profile": "https://instagram.com",
+            "yt_profile": "https://youtube.com",
+            "profile_Img": "/assets/team_img/team4.jpg"
+        },
+        {
+            "id": 5,
+            "person": "Richard K",
+            "jobTitles": "Engineer",
+            "desc": "The Industrial Revolution, which took place from the past.",
+            "fb_profile": "https://facebook.com",
+            "lin_profile": "https://linkedin.com",
+            "insta_profile": "https://instagram.com",
+            "yt_profile": "https://youtube.com",
+            "profile_Img": "/assets/team_img/team5.jpg"
+        },
+        {
+            "id": 6,
+            "person": "Pt. Khan",
+            "jobTitles": "Industrial Manager",
+            "desc": "The Industrial Revolution, which took place from the past.",
+            "fb_profile": "https://facebook.com",
+            "lin_profile": "https://linkedin.com",
+            "insta_profile": "https://instagram.com",
+            "yt_profile": "https://youtube.com",
+            "profile_Img": "/assets/team_img/team6.jpg"
+        }
+    ]
+}

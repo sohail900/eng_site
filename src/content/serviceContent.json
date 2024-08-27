@@ -1,0 +1,34 @@
+{
+    "serviceContent": [
+        {
+            "id": 1,
+            "title": "Fuel & Gas",
+            "desc": "A success website obusly needs great design to be one of the top 10 IT companies Benefit. We craft unique digital experiences. With more than 7 years of expertise we design and code clean websites.Championing technology’s role in preparing and empowering the UK for what comes next, delivering a better future for people, society.",
+            "image": "/assets/services_img/img1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Power & Energy",
+            "desc": "A success website obusly needs great design to be one of the top 10 IT companies Benefit. We craft unique digital experiences. With more than 7 years of expertise we design and code clean websites.Championing technology’s role in preparing and empowering the UK for what comes next, delivering a better future for people, society.",
+            "image": "/assets/services_img/img2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Mechanical Engineering",
+            "desc": "A success website obusly needs great design to be one of the top 10 IT companies Benefit. We craft unique digital experiences. With more than 7 years of expertise we design and code clean websites.Championing technology’s role in preparing and empowering the UK for what comes next, delivering a better future for people, society.",
+            "image": "/assets/services_img/img3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Solar Energy",
+            "desc": "A success website obusly needs great design to be one of the top 10 IT companies Benefit. We craft unique digital experiences. With more than 7 years of expertise we design and code clean websites.Championing technology’s role in preparing and empowering the UK for what comes next, delivering a better future for people, society.",
+            "image": "/assets/services_img/img4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Oil And Lubricant",
+            "desc": "A success website obusly needs great design to be one of the top 10 IT companies Benefit. We craft unique digital experiences. With more than 7 years of expertise we design and code clean websites.Championing technology’s role in preparing and empowering the UK for what comes next, delivering a better future for people, society.",
+            "image": "/assets/services_img/img5.jpg"
+        }
+    ]
+}

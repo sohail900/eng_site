@@ -1,0 +1,34 @@
+{
+    "portfolioData": [
+        {
+            "id": 1,
+            "title": "Building Fast",
+            "desc": "In standard machining, a skilled machinist operates equipment, removing or developing steel.",
+            "image": "/assets/portfolio_img/portfolio4.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Arab Oil Rigs",
+            "desc": "In standard machining, a skilled machinist operates equipment, removing or developing steel.",
+            "image": "/assets/portfolio_img/portfolio3.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Warehouse Industry",
+            "desc": "In standard machining, a skilled machinist operates equipment, removing or developing steel.",
+            "image": "/assets/portfolio_img/portfolio2.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Alternative Energy",
+            "desc": "In standard machining, a skilled machinist operates equipment, removing or developing steel.",
+            "image": "/assets/portfolio_img/portfolio5.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Metal Industry",
+            "desc": "In standard machining, a skilled machinist operates equipment, removing or developing steel.",
+            "image": "/assets/portfolio_img/portfolio1.jpg"
+        }
+    ]
+}

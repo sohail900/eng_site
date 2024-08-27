@@ -1,0 +1,39 @@
+{
+    "blogData": [
+        {
+            "id": 1,
+            "title": "Construction Industry Heading Upright Using",
+            "author": "David Parker",
+            "image": "/assets/blog_img/blogImg1.jpg",
+            "category": "Factory"
+        },
+        {
+            "id": 2,
+            "title": "Key headlines for the best pharmaceutical",
+            "author": "David Parker",
+            "image": "/assets/blog_img/blogImg3.jpg",
+            "category": "Construction"
+        },
+        {
+            "id": 3,
+            "title": "Optimise and improve their capabilities",
+            "author": "David Parker",
+            "image": "/assets/blog_img/blogImg3.jpg",
+            "category": "Industry"
+        },
+        {
+            "id": 4,
+            "title": "Utilization of Titanium In Industries",
+            "author": "David Parker",
+            "image": "/assets/blog_img/blogImg4.jpg",
+            "category": "Factory"
+        },
+        {
+            "id": 5,
+            "title": "The Role Of The CNC Machine Operator",
+            "author": "David Parker",
+            "image": "/assets/blog_img/blogImg5.jpg",
+            "category": "Construction"
+        }
+    ]
+}

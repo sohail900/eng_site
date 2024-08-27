@@ -1,0 +1,15 @@
+.review_card {
+    @apply w-full py-5 px-7 mt-14 cursor-pointer relative h-auto flex flex-col items-center justify-center gap-5 bg-[#f3f3f3] md:w-[320px] transition-all z-10 mb-10  duration-200 ease-in-out border-[10px] border-white xl:border-none;
+}
+.review_card:hover {
+    @apply bg-secondary_color text-white;
+}
+.review_card:hover p {
+    @apply text-white;
+}
+.review_card::before {
+    @apply absolute content-[''] -z-10 -bottom-5 w-[90%] h-5 opacity-0  bg-primary_color transition-opacity duration-500 ease-in-out;
+}
+.review_card:hover::before {
+    @apply opacity-100;
+}

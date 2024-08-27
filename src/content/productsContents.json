@@ -1,0 +1,34 @@
+{
+    "productsData": [
+        {
+            "id": 1,
+            "title": "Lion Compact Drill Cordless",
+            "price": "$200.00",
+            "image": "/assets/productsImg/img1.png"
+        },
+        {
+            "id": 2,
+            "title": "Slim fit chinos mens uk",
+            "price": "$20.00",
+            "image": "/assets/productsImg/img2.png"
+        },
+        {
+            "id": 3,
+            "title": "Lion Compact Drill Driver SZ3",
+            "price": "$150.00",
+            "image": "/assets/productsImg/img3.png"
+        },
+        {
+            "id": 4,
+            "title": "Lion Compact Drill Driver SZ2",
+            "price": "$150.0",
+            "image": "/assets/productsImg/img3.png"
+        },
+        {
+            "id": 5,
+            "title": "Inverter Power Generator V2",
+            "price": "$550.0",
+            "image": "/assets/productsImg/img5.png"
+        }
+    ]
+}

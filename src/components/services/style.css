@@ -1,0 +1,10 @@
+.services_container {
+    @apply w-full h-[150px] flex flex-col justify-center gap-2 items-center
+	cursor-pointer shadow-customShadow relative transition-all text-center sm:h-[180px];
+}
+.services_container:hover {
+    @apply bg-tertiary_color text-white;
+}
+.services_container:hover > p {
+    @apply text-white;
+}

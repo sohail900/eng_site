@@ -1,0 +1,12 @@
+.link_title {
+    @apply text-2xl mb-5 relative font-semibold;
+}
+.link_title::before {
+    @apply content-[''] absolute -bottom-1 left-0 w-[10%] h-[3px] bg-primary_color;
+}
+.link-link-style {
+    @apply flex items-center gap-2 transition-all mb-2;
+}
+.link-link-style:hover {
+    @apply text-primary_color;
+}

@@ -1,0 +1,32 @@
+{
+    "cardItem": [
+        {
+            "id": 1,
+            "label": "Expertise",
+            "title": "Experienced Workers",
+            "desc": "You will find yourself working in a true partnership that result is incredible.",
+            "url": "#"
+        },
+        {
+            "id": 2,
+            "label": " Popularity",
+            "title": "Globally Known",
+            "desc": "You will find yourself working in a true partnership that result is incredible.",
+            "url": "#"
+        },
+        {
+            "id": 3,
+            "label": "Support",
+            "title": "24/7 Super Support",
+            "desc": " You will find yourself working in a true partnership that result is incredible.",
+            "url": "#"
+        },
+        {
+            "id": 4,
+            "label": "Address",
+            "title": "30 Commercial Road",
+            "desc": " Fratton, Australia working in a true partnership that result is incredible.",
+            "url": "#"
+        }
+    ]
+}

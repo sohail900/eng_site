@@ -1,0 +1,273 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    --primary-color: #faa80a;
+    --tertiary-color: '#17ACEA';
+    scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.header_text {
+    @apply text-3xl sm:text-4xl;
+}
+.header_text_small {
+    @apply text-lg;
+}
+
+.animate_clockwise {
+    animation: spin 800ms linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.animate_anticlockwise {
+    animation: anti_spin 600ms linear infinite;
+}
+
+@keyframes anti_spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+.animate_scale {
+    animation: scaleup 32s linear infinite;
+}
+@keyframes scaleup {
+    0% {
+        scale: 1.5;
+    }
+    20% {
+        scale: 1.4;
+    }
+    40% {
+        scale: 1.3;
+    }
+    60% {
+        scale: 1.2;
+    }
+    80% {
+        scale: 1.1;
+    }
+    100% {
+        scale: 1;
+    }
+}
+.rectangular {
+    width: 490px;
+    height: 430px;
+    margin-top: 12rem;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+    border: 0px solid var(--primary-color);
+    border-right-width: 14px;
+    border-top-width: 14px;
+    border-bottom-width: 14px;
+    position: relative;
+}
+.rectangular::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 50px;
+    background-color: var(--primary-color);
+    top: 0;
+    left: 0;
+}
+.rectangular::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 50px;
+    background-color: var(--primary-color);
+    bottom: 0;
+    left: 0;
+}
+@media screen and (max-width: 1260px) {
+    .rectangular {
+        width: 520px;
+        height: 450px;
+        margin-top: 12rem;
+        margin-left: 10rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .rectangular {
+        width: 450px;
+        height: 480px;
+        margin-left: 0rem;
+        margin-top: 8rem;
+    }
+}
+@media screen and (max-width: 700) {
+    .rectangular {
+        width: auto;
+        height: 480px;
+        margin-left: 0rem;
+        margin-top: 8rem;
+        border-right-width: 8px;
+        border-top-width: 8px;
+        border-bottom-width: 8px;
+    }
+    .rectangular::before {
+        content: '';
+        width: 8px;
+    }
+    .rectangular::after {
+        content: '';
+        width: 8px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .rectangular {
+        width: 350px;
+        height: 480px;
+    }
+}
+.button {
+    position: relative;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid transparent; /* Initially transparent border */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.button::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: -8px; /* Frame outside of the button */
+    bottom: -8px;
+    outline: 2px solid var(--primary-color); /* Frame border color */
+    transition: all 0.3s ease-in-out; /* Smooth transition for the frame */
+}
+
+.button:hover::before {
+    right: 0;
+    bottom: 0;
+    outline: 2px solid var(--primary-color); /* Frame border color */
+}
+
+.button:hover {
+    color: var(--primary-color); /* Change text color on hover */
+}
+.small_rect {
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.small_rect::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: -50%;
+    right: -50%;
+}
+.card {
+    position: relative;
+    transition: all 200ms ease-in-out;
+}
+.card:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -5%;
+    right: -4%;
+    background-color: transparent;
+    transition: all 300ms ease-in-out;
+    z-index: -1;
+}
+.card:hover {
+    background-color: black;
+    color: white;
+}
+.card:hover > p {
+    color: white;
+}
+.card:hover > h1 {
+    color: white;
+}
+.card:hover > span {
+    color: white;
+}
+.card:hover::before {
+    background-color: var(--primary-color);
+}
+.shape {
+    width: 120px;
+    height: 130px;
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: 5%;
+    left: -15%;
+}
+.shape::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    position: absolute;
+    top: -40%;
+    right: -44%;
+}
+.shape::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-color: #17acea;
+    position: absolute;
+    bottom: -22%;
+    right: -24%;
+}
+.shape_small {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    top: -1%;
+    right: 0%;
+}
+.shape_small:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-color: #17acea;
+    position: absolute;
+    bottom: -59%;
+    left: -61%;
+}
+.shape_small::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 45%;
+    right: -49%;
+}

@@ -1,0 +1,33 @@
+.container:hover .an_icon {
+    animation: oscillate-rotation 1s ease-in-out;
+}
+
+@keyframes oscillate-rotation {
+    0% {
+        transform: rotate(0) scale(1) skew(0deg);
+    }
+
+    10% {
+        transform: rotate(-25deg) scale(1) skew(0deg);
+    }
+
+    20% {
+        transform: rotate(25deg) scale(1) skew(0deg);
+    }
+
+    30% {
+        transform: rotate(-25deg) scale(1) skew(0deg);
+    }
+
+    40% {
+        transform: rotate(25deg) scale(1) skew(0deg);
+    }
+
+    50% {
+        transform: rotate(0) scale(1) skew(0deg);
+    }
+
+    100% {
+        transform: rotate(0) scale(1) skew(0deg);
+    }
+}

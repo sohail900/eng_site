@@ -1,0 +1,16 @@
+.image_card {
+    @apply w-full h-full absolute top-0  backdrop-blur-md py-7 px-6 text-white transition-all duration-500 ease-in-out;
+}
+
+.image_card:hover > div {
+    @apply absolute top-56;
+}
+.image_card:hover h1 {
+    @apply text-primary_color;
+}
+.image_card:hover p {
+    @apply block;
+}
+.image_card:hover .icon {
+    @apply bg-tertiary_color text-white;
+}

@@ -1,0 +1,32 @@
+{
+    "clientContent": [
+        {
+            "id": 1,
+            "clientName": "R. Faulkner",
+            "jobTitles": "CEO & Founder",
+            "desc": "The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.",
+            "image": "/assets/clients/client1.jpg"
+        },
+        {
+            "id": 2,
+            "clientName": "Alfread Bonaport",
+            "jobTitles": "Manager",
+            "desc": "The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.",
+            "image": "/assets/clients/client2.jpg"
+        },
+        {
+            "id": 3,
+            "clientName": "Afrin Leo",
+            "jobTitles": "CEO & Founder",
+            "desc": "The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.",
+            "image": "/assets/clients/client3.jpg"
+        },
+        {
+            "id": 4,
+            "clientName": "Ashish Sudra",
+            "jobTitles": "Manager",
+            "desc": "The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.",
+            "image": "/assets/clients/client4.jpg"
+        }
+    ]
+}
